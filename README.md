@@ -34,12 +34,13 @@ Data Transformation:<br>
 Once I had sufficient data (approximately 1500 rows), I converted words to root words using EnglishStemmer I transformed the text data into  the titles and body of the posts using CountVectorizer, which counts the frequency of words and return the words that have the highest frequencies: CountVectorizer.
 <br>
 <br>
-<b>Data Modeling & Evaluation:<b> <br>
+Data Modeling & Evaluation: <br>
 <p>I Modeled the data using 3 classification models: KNN Classifier, Logistic Regression and Random Forest Classifier. Logistic Regression and RandomForest had the highest accuracy scores on both train and test data. Tuning number of neighbors for KNN and max_depth (using GridSearch) for Random Forest raised the test scores and brought the test and train scores closer, reducing overfit.</p>
 <br>
 
 Conclusions:<br>
 Finally, in order to categorize these and other subreddits, I would suggest using RandomForest and Logistic Regression. RandomForest had high accuracy score on both train and test data. Logistic Regression made it easy to view top predicting words, and it also had the highest train and test accuracy scores.
+<br>
 <br>
 Further Analysis:<br>
 Since other reddits  may not be as clearly differentiable, additional methods we could apply include the folllowing: ngrams, TF-IDF Vectorizer and adding or engineering additional features. ngrams can be altered to include multiple words and TF-IDF is a method that returns of proportion of frequency for word features. Additional features could include whether the post has pictures, the number of comments or the number of upvotes it has, or the length of the title or body of the post.
