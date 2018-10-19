@@ -4,14 +4,13 @@
 ### Repository Organization:
 <br>
 Reddit data:
-ul>
+<ul>
   <li>scraped data from Reddit API and output from modeling</li>
 </ul>
 Webscraping-Climbing-&-Yoga-Subreddits.ipynb:
 <ul>
   <li>Scrape data from Reddit API</li>
 </ul>
-<br>
 Subreddit Text Analysis-Climbing-Yoga.ipynb:
 <ul>
   <li>Reads in csv containing scraped data</li>
@@ -20,8 +19,6 @@ Subreddit Text Analysis-Climbing-Yoga.ipynb:
   <li>Observe most indicative features and evaluate model performance</li>
 </ul>
 
-<br>
-
 ### Executive Summary:
 The purpose of this analysis is to demonstrate a model that re-creates lost subreddit categories for Reddit.com, a social news aggregator.
 <br>
@@ -29,7 +26,7 @@ The purpose of this analysis is to demonstrate a model that re-creates lost subr
 As a initial case, I chose two subreddits: /r/yoga and /r/climbing to find the top words that categorize a subreddit post and use those to predict the categories for future posts. The tops predictor words for the yoga subreddit  were "comp" and the word "yoga" itself. Similarly for climbing, the top word was "climb", "gym", and "boulder".
 <br>
 <br>
-<b>Data Collection:<b> <br>
+<b>Data Collection:<b/> <br>
 To gather the data I need, I used web-scraping to pull data into json format from Reddit’s API.
 <br>
 <br>
