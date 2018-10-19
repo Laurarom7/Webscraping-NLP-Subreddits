@@ -1,6 +1,5 @@
 ## Webscraping and Subreddit Categorization
 ### Using Natural Language Processing and Classification Models
-
 ### Repository Organization:
 <br>
 Reddit data:
@@ -35,7 +34,7 @@ Once I had sufficient data (approximately 1500 rows), I converted words to root 
 <br>
 <br>
 Data Modeling & Evaluation: <br>
-<p>I Modeled the data using 3 classification models: KNN Classifier, Logistic Regression and Random Forest Classifier. Logistic Regression and RandomForest had the highest accuracy scores on both train and test data. Tuning number of neighbors for KNN and max_depth (using GridSearch) for Random Forest raised the test scores and brought the test and train scores closer, reducing overfit.</p>
+I Modeled the data using 3 classification models: KNN Classifier, Logistic Regression and Random Forest Classifier. Logistic Regression and RandomForest had the highest accuracy scores on both train and test data. Tuning number of neighbors for KNN and max_depth (using GridSearch) for Random Forest raised the test scores and brought the test and train scores closer, reducing overfit.
 <br>
 
 Conclusions:<br>
