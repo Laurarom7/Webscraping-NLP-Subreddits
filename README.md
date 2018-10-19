@@ -43,3 +43,5 @@ Finally, in order to categorize these and other subreddits, I would suggest usin
 <br>
 Further Analysis:<br>
 Since other reddits  may not be as clearly differentiable, additional methods we could apply include the folllowing: ngrams, TF-IDF Vectorizer and adding or engineering additional features. ngrams can be altered to include multiple words and TF-IDF is a method that returns of proportion of frequency for word features. Additional features could include whether the post has pictures, the number of comments or the number of upvotes it has, or the length of the title or body of the post.
+
+Visit my blog for further explanation: https://medium.com/thoughtful-data-science/rocks-namaste-api-webscraping-natural-language-processing-5131c3889bbe 
